@@ -1,0 +1,5 @@
+*.blend1
+*.blend2
+/backup/*
+/base/*
+/refs/*
