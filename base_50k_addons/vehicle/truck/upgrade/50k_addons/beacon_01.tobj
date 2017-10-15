@@ -1,0 +1,5 @@
+map 2d
+     beacon_01.dds
+addr
+     clamp_to_edge
+     clamp_to_edge

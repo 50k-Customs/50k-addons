@@ -1,0 +1,13 @@
+SiiNunit
+{
+flare_vehicle: flare.vehicle.auxlight_50k
+{
+	dir_type: angle
+	flare_inner_angle: 100
+	flare_outer_angle: 125
+	light_type: aux
+	model: "/model/flare/uniform_white.pmd" 
+	default_scale: 1.56
+	scale_factor: 4
+}
+}

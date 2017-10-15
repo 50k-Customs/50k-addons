@@ -1,0 +1,73 @@
+Header {
+    FormatVersion: 5
+    Source: "Blender 2.79.0 (hash: 5bd8ac9abfa), SCS Blender Tools: 1.10.001193f"
+    Type: "Model"
+    Name: "50k_grill_flare"
+}
+Global {
+    VertexCount: 4
+    TriangleCount: 2
+    MaterialCount: 1
+    PieceCount: 1
+    PartCount: 1
+    BoneCount: 0
+    LocatorCount: 0
+    Skeleton: "50k_grill_flare.pis"
+}
+Material {
+    Alias: "flare"
+    Effect: "eut2.flare"
+}
+Piece {
+    Index: 0
+    Material: 0
+    VertexCount: 4
+    TriangleCount: 2
+    StreamCount: 4
+    Stream {
+        Format: FLOAT3
+        Tag: "_POSITION"
+        0    ( &3de36d3e  &bdd2da48  &b208b0f3 )
+        1    ( &bddf9074  &3dcd41bd  &31fdae2d )
+        2    ( &bddf9074  &bdd2da48  &b208b0f3 )
+        3    ( &3de36d3e  &3dcd41bd  &31fdae2d )
+    }
+    Stream {
+        Format: FLOAT3
+        Tag: "_NORMAL"
+        0    ( &00000000  &b3a22169  &3f800000 )
+        1    ( &00000000  &b3a22169  &3f800000 )
+        2    ( &00000000  &b3a22169  &3f800000 )
+        3    ( &00000000  &b3a22169  &3f800000 )
+    }
+    Stream {
+        Format: FLOAT2
+        Tag: "_UV0"
+        AliasCount: 1
+        Aliases: "_TEXCOORD0"
+        0    ( &3f000000  &3f400000 )
+        1    ( &00000000  &3f000000 )
+        2    ( &00000000  &3f400000 )
+        3    ( &3f000000  &3f000000 )
+    }
+    Stream {
+        Format: FLOAT4
+        Tag: "_RGBA"
+        0    ( &3fbfbfc0  &3f20a0a1  &3f169697  &40000000 )
+        1    ( &3fbfbfc0  &3f20a0a1  &3f169697  &40000000 )
+        2    ( &3fbfbfc0  &3f20a0a1  &3f169697  &40000000 )
+        3    ( &3fbfbfc0  &3f20a0a1  &3f169697  &40000000 )
+    }
+    Triangles {
+        0    ( 2     1     0 )
+        1    ( 1     3     0 )
+    }
+}
+Part {
+    Name: "defaultpart"
+    PieceCount: 1
+    LocatorCount: 0
+    Pieces: 0
+    Locators:
+}
+

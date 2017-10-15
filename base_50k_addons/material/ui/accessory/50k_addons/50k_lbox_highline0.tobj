@@ -1,0 +1,3 @@
+map	2d	50k_lbox_highline0.tga
+addr	clamp_to_edge	clamp_to_edge
+usage	ui

@@ -1,0 +1,18 @@
+SiiNunit
+{
+flare_vehicle: flare.vehicle.lobarorangel
+{
+	dir_type: wide
+	light_type: parking
+	model: "/model/flare/50k_grill_flare.pmd" 
+	scale_factor: 1.5
+	visual_offset: 0.075
+
+    diffuse_color: (0.2, 0.072, 0.04)
+	range: 0.5
+	inner_angle: 0.5
+	outer_angle: 170.0
+	type: spot
+	forward_distance: false
+}
+}
