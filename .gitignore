@@ -2,4 +2,5 @@
 *.blend2
 /backup/*
 /base/*
+/base
 /refs/*
