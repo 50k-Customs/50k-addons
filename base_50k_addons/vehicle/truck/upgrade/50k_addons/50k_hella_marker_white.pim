@@ -1,0 +1,498 @@
+Header {
+    FormatVersion: 5
+    Source: "Blender 2.79.0 (hash: 5bd8ac9abfa), SCS Blender Tools: 1.10.001193f"
+    Type: "Model"
+    Name: "50k_hella_marker_white"
+}
+Global {
+    VertexCount: 66
+    TriangleCount: 78
+    MaterialCount: 2
+    PieceCount: 2
+    PartCount: 1
+    BoneCount: 0
+    LocatorCount: 4
+    Skeleton: "50k_hella_marker_white.pis"
+}
+Material {
+    Alias: "50k_hella_marker_lamp"
+    Effect: "eut2.lamp.add.env"
+}
+Material {
+    Alias: "upg_shared"
+    Effect: "eut2.dif.spec"
+}
+Piece {
+    Index: 0
+    Material: 0
+    VertexCount: 32
+    TriangleCount: 46
+    StreamCount: 5
+    Stream {
+        Format: FLOAT3
+        Tag: "_POSITION"
+        0    ( &3d08317e  &bc27c2eb  &bc0676ed )
+        1    ( &3cedfc0a  &bc4442d5  &bc0676ed )
+        2    ( &3d08317e  &3c1a0696  &bc0676eb )
+        3    ( &3d1fbd65  &bb05155d  &bc0676ec )
+        4    ( &3d1e4544  &bbea61d7  &bbe43959 )
+        5    ( &3d189d6a  &bbcc2676  &bc0676ed )
+        6    ( &3cf0a377  &bc5ef241  &bbe4395a )
+        7    ( &3d1fbd65  &3a9c47fc  &bc0676ec )
+        8    ( &3d1e4544  &3bcee927  &bbe43957 )
+        9    ( &3d266940  &3ac6bed3  &bbe43958 )
+        10   ( &3cedfc0a  &3c36867f  &bc0676eb )
+        11   ( &3d0bf8ea  &3c30a5fc  &bbe43956 )
+        12   ( &bd1fbd65  &3a9c4804  &bc0676ec )
+        13   ( &bd1e4544  &3bcee929  &bbe43957 )
+        14   ( &bd189d6a  &3bb0adc8  &bc0676ec )
+        15   ( &bcedfc0a  &3c36867f  &bc0676eb )
+        16   ( &bd0bf8ea  &3c30a5fc  &bbe43956 )
+        17   ( &bcf0a377  &3c5135eb  &bbe43956 )
+        18   ( &bd1fbd65  &bb051559  &bc0676ec )
+        19   ( &bd1e4544  &bbea61d5  &bbe43959 )
+        20   ( &bd266940  &bb1a50c5  &bbe43958 )
+        21   ( &bcedfc0a  &bc4442d5  &bc0676ed )
+        22   ( &bd0bf8ea  &bc3e6252  &bbe4395a )
+        23   ( &bd08317e  &bc27c2ec  &bc0676ed )
+        24   ( &bd08317e  &3c1a0695  &bc0676eb )
+        25   ( &bd266940  &3ac6bedb  &bbe43958 )
+        26   ( &3cf0a377  &3c5135eb  &bbe43956 )
+        27   ( &3d189d6a  &3bb0adc6  &bc0676ec )
+        28   ( &3d266940  &bb1a50c9  &bbe43958 )
+        29   ( &3d0bf8ea  &bc3e6252  &bbe4395a )
+        30   ( &bcf0a377  &bc5ef241  &bbe4395a )
+        31   ( &bd189d6a  &bbcc2674  &bc0676ed )
+    }
+    Stream {
+        Format: FLOAT3
+        Tag: "_NORMAL"
+        0    ( &3e473fea  &be95195b  &bf6fc917 )
+        1    ( &3d8bef2a  &beafdfd3  &bf6fc919 )
+        2    ( &3e473fe6  &3e95195e  &bf6fc917 )
+        3    ( &3eafdfee  &bd8bef4d  &bf6fc913 )
+        4    ( &3f407ca6  &bf009d9b  &beda90f8 )
+        5    ( &3e95196f  &be473ffb  &bf6fc914 )
+        6    ( &3e34a7b7  &bf630dc2  &beda910f )
+        7    ( &3eafdfe7  &3d8bef50  &bf6fc914 )
+        8    ( &3f407ca4  &3f009d9c  &beda9101 )
+        9    ( &3f630dc5  &3e34a7c6  &beda90fb )
+        10   ( &3d8bef2e  &3eafdfd8  &bf6fc917 )
+        11   ( &3f009d98  &3f407ca4  &beda9109 )
+        12   ( &beafdfe7  &3d8bef50  &bf6fc914 )
+        13   ( &bf407ca4  &3f009d9c  &beda90f9 )
+        14   ( &be951967  &3e473ffd  &bf6fc914 )
+        15   ( &bd8bef29  &3eafdfd6  &bf6fc917 )
+        16   ( &bf009d98  &3f407ca4  &beda9106 )
+        17   ( &be34a7b6  &3f630dc2  &beda9109 )
+        18   ( &beafdfe8  &bd8bef41  &bf6fc914 )
+        19   ( &bf407ca3  &bf009d99  &beda9101 )
+        20   ( &bf630dc6  &be34a7c1  &beda90fb )
+        21   ( &bd8bef2e  &beafdfd4  &bf6fc917 )
+        22   ( &bf009d98  &bf407ca2  &beda910d )
+        23   ( &be473fe8  &be95195c  &bf6fc919 )
+        24   ( &be473fea  &3e95195f  &bf6fc917 )
+        25   ( &bf630dc6  &3e34a7c5  &beda90fb )
+        26   ( &3e34a7b9  &3f630dc3  &beda9106 )
+        27   ( &3e951963  &3e473ff2  &bf6fc915 )
+        28   ( &3f630dc6  &be34a7c7  &beda90f6 )
+        29   ( &3f009d99  &bf407ca4  &beda910c )
+        30   ( &be34a7b9  &bf630dc1  &beda910a )
+        31   ( &be951963  &be473feb  &bf6fc917 )
+    }
+    Stream {
+        Format: FLOAT2
+        Tag: "_UV0"
+        AliasCount: 1
+        Aliases: "_TEXCOORD0"
+        0    ( &3dba1c5c  &3e8d0924 )
+        1    ( &3e11f7b6  &3e974aac )
+        2    ( &3dba1c5c  &3d49e470 )
+        3    ( &3ca4fdf0  &3e394670 )
+        4    ( &3d09a548  &3e757cf0 )
+        5    ( &3d2a2a00  &3e6acba0 )
+        6    ( &3e14ee60  &3ea0b63e )
+        7    ( &3ca4fdf0  &3e1344f8 )
+        8    ( &3d09a548  &3dae1cf8 )
+        9    ( &3c1d8ce0  &3e0f80b4 )
+        10   ( &3e11f7b6  &3cefb0c0 )
+        11   ( &3db34120  &3d0a01a0 )
+        12   ( &3f7ad80e  &3e1344f0 )
+        13   ( &3f7765aa  &3dae1cf0 )
+        14   ( &3f755d5e  &3dc37f90 )
+        15   ( &3f5b8211  &3cefb0c0 )
+        16   ( &3f6997da  &3d0a01a0 )
+        17   ( &3f5ac465  &3c31ef00 )
+        18   ( &3f7ad810  &3e394670 )
+        19   ( &3f7765aa  &3e757cf0 )
+        20   ( &3f7d89ca  &3e3d0ab8 )
+        21   ( &3f5b8211  &3e974aac )
+        22   ( &3f6997da  &3e950580 )
+        23   ( &3f68bc72  &3e8d0928 )
+        24   ( &3f68bc73  &3d49e480 )
+        25   ( &3f7d89ca  &3e0f80b0 )
+        26   ( &3e14ee62  &3c31eec0 )
+        27   ( &3d2a2a00  &3dc37f90 )
+        28   ( &3c1d8ce0  &3e3d0ab8 )
+        29   ( &3db34120  &3e950580 )
+        30   ( &3f5ac465  &3ea0b63e )
+        31   ( &3f755d5f  &3e6acb9c )
+    }
+    Stream {
+        Format: FLOAT2
+        Tag: "_UV1"
+        AliasCount: 1
+        Aliases: "_TEXCOORD1"
+        0    ( &3dba1c3c  &3f19e2b7 )
+        1    ( &3e11f7be  &3f1f037b )
+        2    ( &3dba1c3c  &3ebff8d8 )
+        3    ( &3ca4fdf0  &3f01afc1 )
+        4    ( &3d09a548  &3f10bd61 )
+        5    ( &3d2a2a00  &3f0e110d )
+        6    ( &3e14ee60  &3f23b944 )
+        7    ( &3ca4fdf0  &3ef05ec6 )
+        8    ( &3d09a548  &3ed24388 )
+        9    ( &3c1d8ce0  &3eee7ca4 )
+        10   ( &3e11f7b6  &3eb5b756 )
+        11   ( &3db34120  &3eb7fc7e )
+        12   ( &3f7ad80e  &3ef05ec2 )
+        13   ( &3f7765aa  &3ed24386 )
+        14   ( &3f755d5e  &3ed79c2e )
+        15   ( &3f5b8211  &3eb5b756 )
+        16   ( &3f6997da  &3eb7fc7e )
+        17   ( &3f5ac465  &3eac4bc2 )
+        18   ( &3f7ad810  &3f01afc1 )
+        19   ( &3f7765aa  &3f10bd61 )
+        20   ( &3f7d89ca  &3f02a0d3 )
+        21   ( &3f5b8211  &3f1f037b )
+        22   ( &3f6997da  &3f1de0e5 )
+        23   ( &3f68bc72  &3f19e2b9 )
+        24   ( &3f68bc73  &3ebff8da )
+        25   ( &3f7d89ca  &3eee7ca2 )
+        26   ( &3e14ee62  &3eac4bc0 )
+        27   ( &3d2a2a00  &3ed79c2e )
+        28   ( &3c1d8ce0  &3f02a0d3 )
+        29   ( &3db34120  &3f1de0e5 )
+        30   ( &3f5ac465  &3f23b944 )
+        31   ( &3f755d5f  &3f0e110c )
+    }
+    Stream {
+        Format: FLOAT4
+        Tag: "_RGBA"
+        0    ( &3f808081  &3f808081  &3f808081  &40000000 )
+        1    ( &3f808081  &3f808081  &3f808081  &40000000 )
+        2    ( &3f808081  &3f808081  &3f808081  &40000000 )
+        3    ( &3f808081  &3f808081  &3f808081  &40000000 )
+        4    ( &3f808081  &3f808081  &3f808081  &40000000 )
+        5    ( &3f808081  &3f808081  &3f808081  &40000000 )
+        6    ( &3f808081  &3f808081  &3f808081  &40000000 )
+        7    ( &3f808081  &3f808081  &3f808081  &40000000 )
+        8    ( &3f808081  &3f808081  &3f808081  &40000000 )
+        9    ( &3f808081  &3f808081  &3f808081  &40000000 )
+        10   ( &3f808081  &3f808081  &3f808081  &40000000 )
+        11   ( &3f808081  &3f808081  &3f808081  &40000000 )
+        12   ( &3f808081  &3f808081  &3f808081  &40000000 )
+        13   ( &3f808081  &3f808081  &3f808081  &40000000 )
+        14   ( &3f808081  &3f808081  &3f808081  &40000000 )
+        15   ( &3f808081  &3f808081  &3f808081  &40000000 )
+        16   ( &3f808081  &3f808081  &3f808081  &40000000 )
+        17   ( &3f808081  &3f808081  &3f808081  &40000000 )
+        18   ( &3f808081  &3f808081  &3f808081  &40000000 )
+        19   ( &3f808081  &3f808081  &3f808081  &40000000 )
+        20   ( &3f808081  &3f808081  &3f808081  &40000000 )
+        21   ( &3f808081  &3f808081  &3f808081  &40000000 )
+        22   ( &3f808081  &3f808081  &3f808081  &40000000 )
+        23   ( &3f808081  &3f808081  &3f808081  &40000000 )
+        24   ( &3f808081  &3f808081  &3f808081  &40000000 )
+        25   ( &3f808081  &3f808081  &3f808081  &40000000 )
+        26   ( &3f808081  &3f808081  &3f808081  &40000000 )
+        27   ( &3f808081  &3f808081  &3f808081  &40000000 )
+        28   ( &3f808081  &3f808081  &3f808081  &40000000 )
+        29   ( &3f808081  &3f808081  &3f808081  &40000000 )
+        30   ( &3f808081  &3f808081  &3f808081  &40000000 )
+        31   ( &3f808081  &3f808081  &3f808081  &40000000 )
+    }
+    Triangles {
+        0    ( 2     1     0 )
+        1    ( 5     4     3 )
+        2    ( 1     6     0 )
+        3    ( 9     8     7 )
+        4    ( 2     11    10 )
+        5    ( 14    13    12 )
+        6    ( 17    16    15 )
+        7    ( 20    19    18 )
+        8    ( 23    22    21 )
+        9    ( 24    16    14 )
+        10   ( 12    25    18 )
+        11   ( 10    26    15 )
+        12   ( 27    8     2 )
+        13   ( 3     28    7 )
+        14   ( 0     29    5 )
+        15   ( 21    30    1 )
+        16   ( 31    19    23 )
+        17   ( 14    12    18 )
+        18   ( 23    24    14 )
+        19   ( 1     10    15 )
+        20   ( 5     27    2 )
+        21   ( 5     3     7 )
+        22   ( 2     0     5 )
+        23   ( 15    21    1 )
+        24   ( 14    31    23 )
+        25   ( 31    14    18 )
+        26   ( 1     2     10 )
+        27   ( 27    5     7 )
+        28   ( 15    23    21 )
+        29   ( 23    15    24 )
+        30   ( 4     28    3 )
+        31   ( 6     29    0 )
+        32   ( 8     27    7 )
+        33   ( 11    26    10 )
+        34   ( 13    25    12 )
+        35   ( 16    24    15 )
+        36   ( 19    31    18 )
+        37   ( 22    30    21 )
+        38   ( 16    13    14 )
+        39   ( 25    20    18 )
+        40   ( 26    17    15 )
+        41   ( 8     11    2 )
+        42   ( 28    9     7 )
+        43   ( 29    4     5 )
+        44   ( 30    6     1 )
+        45   ( 19    22    23 )
+    }
+}
+Piece {
+    Index: 1
+    Material: 1
+    VertexCount: 34
+    TriangleCount: 32
+    StreamCount: 4
+    Stream {
+        Format: FLOAT3
+        Tag: "_POSITION"
+        0    ( &3cf0a377  &bc5ef241  &bbe4395a )
+        1    ( &bcf0a377  &bc5ef242  &3b943be6 )
+        2    ( &bcf0a377  &bc5ef241  &bbe4395a )
+        3    ( &bd0bf8ea  &bc3e6253  &3b943be6 )
+        4    ( &bd0bf8ea  &bc3e6252  &bbe4395a )
+        5    ( &3d266940  &bb1a50c9  &bbe43958 )
+        6    ( &3d1e4544  &bbea61d9  &3b943be7 )
+        7    ( &3d1e4544  &bbea61d7  &bbe43959 )
+        8    ( &bd1e4544  &bbea61d7  &3b943be7 )
+        9    ( &bd1e4544  &bbea61d5  &bbe43959 )
+        10   ( &bd1e4544  &3bcee929  &bbe43957 )
+        11   ( &bd0bf8ea  &3c30a5fb  &3b943bea )
+        12   ( &bd0bf8ea  &3c30a5fc  &bbe43956 )
+        13   ( &3d0bf8ea  &bc3e6252  &bbe4395a )
+        14   ( &3cf0a377  &bc5ef242  &3b943be6 )
+        15   ( &bd266940  &bb1a50c5  &bbe43958 )
+        16   ( &bd266940  &3ac6bed3  &3b943be8 )
+        17   ( &bd266940  &3ac6bedb  &bbe43958 )
+        18   ( &3d1e4544  &3bcee927  &bbe43957 )
+        19   ( &3d266940  &3ac6becb  &3b943be8 )
+        20   ( &3d266940  &3ac6bed3  &bbe43958 )
+        21   ( &bcf0a377  &3c5135eb  &bbe43956 )
+        22   ( &3cf0a377  &3c5135ea  &3b943bea )
+        23   ( &3cf0a377  &3c5135eb  &bbe43956 )
+        24   ( &3d0bf8ea  &3c30a5fb  &3b943bea )
+        25   ( &3d0bf8ea  &3c30a5fc  &bbe43956 )
+        26   ( &3d1e4544  &3bcee925  &3b943be9 )
+        27   ( &bd266940  &3ac6bedb  &bbe43958 )
+        28   ( &bd1e4544  &3bcee927  &3b943be9 )
+        29   ( &3d266940  &bb1a50cc  &3b943be8 )
+        30   ( &bcf0a377  &3c5135ea  &3b943bea )
+        31   ( &3d0bf8ea  &bc3e6253  &3b943be6 )
+        32   ( &bd266940  &bb1a50c8  &3b943be8 )
+        33   ( &bd266940  &3ac6bed3  &3b943be8 )
+    }
+    Stream {
+        Format: FLOAT3
+        Tag: "_NORMAL"
+        0    ( &3e34a7b7  &bf630dc2  &beda910f )
+        1    ( &be47c5c5  &bf7b14bf  &b39f03e6 )
+        2    ( &be34a7b9  &bf630dc1  &beda910a )
+        3    ( &bf0e39da  &bf54db30  &b386ce7c )
+        4    ( &bf009d98  &bf407ca2  &beda910d )
+        5    ( &3f630dc6  &be34a7c7  &beda90f6 )
+        6    ( &3f54db31  &bf0e39dd  &b334265b )
+        7    ( &3f407ca6  &bf009d9b  &beda90f8 )
+        8    ( &bf54db31  &bf0e39db  &b3342658 )
+        9    ( &bf407ca3  &bf009d99  &beda9101 )
+        10   ( &bf407ca4  &3f009d9c  &beda90f9 )
+        11   ( &bf0e39d9  &3f54db32  &3386ce7d )
+        12   ( &bf009d98  &3f407ca4  &beda9106 )
+        13   ( &3f009d99  &bf407ca4  &beda910c )
+        14   ( &3e47c5c5  &bf7b14bf  &b39f03e6 )
+        15   ( &bf630dc6  &be34a7c1  &beda90fb )
+        16   ( &bf7b14bf  &3e47c5c7  &327d0a75 )
+        17   ( &bf630dc6  &3e34a7c5  &beda90fb )
+        18   ( &3f407ca4  &3f009d9c  &beda9101 )
+        19   ( &3f7b14be  &3e47c5c7  &327d0a75 )
+        20   ( &3f630dc5  &3e34a7c6  &beda90fb )
+        21   ( &be34a7b6  &3f630dc2  &beda9109 )
+        22   ( &3e47c5c5  &3f7b14bf  &339f03e6 )
+        23   ( &3e34a7b9  &3f630dc3  &beda9106 )
+        24   ( &3f0e39da  &3f54db30  &3386ce7c )
+        25   ( &3f009d98  &3f407ca4  &beda9109 )
+        26   ( &3f54db30  &3f0e39dc  &3334265a )
+        27   ( &bf630dc6  &3e34a7c5  &beda90fb )
+        28   ( &bf54db30  &3f0e39dd  &3334265b )
+        29   ( &3f7b14be  &be47c5c7  &b27d0a75 )
+        30   ( &be47c5c5  &3f7b14bf  &339f03e6 )
+        31   ( &3f0e39d9  &bf54db32  &b386ce7d )
+        32   ( &bf7b14be  &be47c5c7  &b27d0a75 )
+        33   ( &bf7b14bf  &3e47c5c7  &327d0a75 )
+    }
+    Stream {
+        Format: FLOAT2
+        Tag: "_UV0"
+        AliasCount: 1
+        Aliases: "_TEXCOORD0"
+        0    ( &3e1b63c9  &3e98188a )
+        1    ( &3e145895  &3e9a62f4 )
+        2    ( &3e1b63d1  &3e9a62f4 )
+        3    ( &3e145895  &3e9a96cc )
+        4    ( &3e1b63d1  &3e9a96cc )
+        5    ( &3e1b63c9  &3e9771cc )
+        6    ( &3e145891  &3e97a5a2 )
+        7    ( &3e1b63c9  &3e97a5a4 )
+        8    ( &3e145895  &3e9ad5da )
+        9    ( &3e1b63d1  &3e9ad5dc )
+        10   ( &3e1b63c5  &3e93e71a )
+        11   ( &3e145889  &3e94262a )
+        12   ( &3e1b63c5  &3e94262a )
+        13   ( &3e1b63c9  &3e97e4b4 )
+        14   ( &3e145891  &3e981888 )
+        15   ( &3e1b63d1  &3e9b09b0 )
+        16   ( &3e145895  &3e9b3054 )
+        17   ( &3e1b63d1  &3e9b3054 )
+        18   ( &3e1b63c9  &3e971752 )
+        19   ( &3e145891  &3e974b28 )
+        20   ( &3e1b63c9  &3e974b28 )
+        21   ( &3e1b63c5  &3e945a00 )
+        22   ( &3e145891  &3e96a46a )
+        23   ( &3e1b63c9  &3e96a46c )
+        24   ( &3e145891  &3e96d842 )
+        25   ( &3e1b63c9  &3e96d842 )
+        26   ( &3e145891  &3e971752 )
+        27   ( &3e1b63c5  &3e93b344 )
+        28   ( &3e145889  &3e93e71a )
+        29   ( &3e145891  &3e9771cc )
+        30   ( &3e145889  &3e945a00 )
+        31   ( &3e145891  &3e97e4b2 )
+        32   ( &3e145895  &3e9b09b0 )
+        33   ( &3e145889  &3e93b344 )
+    }
+    Stream {
+        Format: FLOAT4
+        Tag: "_RGBA"
+        0    ( &3eacacad  &3eacacad  &3eacacad  &40000000 )
+        1    ( &3eacacad  &3eacacad  &3eacacad  &40000000 )
+        2    ( &3eacacad  &3eacacad  &3eacacad  &40000000 )
+        3    ( &3eacacad  &3eacacad  &3eacacad  &40000000 )
+        4    ( &3eacacad  &3eacacad  &3eacacad  &40000000 )
+        5    ( &3eacacad  &3eacacad  &3eacacad  &40000000 )
+        6    ( &3eacacad  &3eacacad  &3eacacad  &40000000 )
+        7    ( &3eacacad  &3eacacad  &3eacacad  &40000000 )
+        8    ( &3eacacad  &3eacacad  &3eacacad  &40000000 )
+        9    ( &3eacacad  &3eacacad  &3eacacad  &40000000 )
+        10   ( &3eacacad  &3eacacad  &3eacacad  &40000000 )
+        11   ( &3eacacad  &3eacacad  &3eacacad  &40000000 )
+        12   ( &3eacacad  &3eacacad  &3eacacad  &40000000 )
+        13   ( &3eacacad  &3eacacad  &3eacacad  &40000000 )
+        14   ( &3eacacad  &3eacacad  &3eacacad  &40000000 )
+        15   ( &3eacacad  &3eacacad  &3eacacad  &40000000 )
+        16   ( &3eacacad  &3eacacad  &3eacacad  &40000000 )
+        17   ( &3eacacad  &3eacacad  &3eacacad  &40000000 )
+        18   ( &3eacacad  &3eacacad  &3eacacad  &40000000 )
+        19   ( &3eacacad  &3eacacad  &3eacacad  &40000000 )
+        20   ( &3eacacad  &3eacacad  &3eacacad  &40000000 )
+        21   ( &3eacacad  &3eacacad  &3eacacad  &40000000 )
+        22   ( &3eacacad  &3eacacad  &3eacacad  &40000000 )
+        23   ( &3eacacad  &3eacacad  &3eacacad  &40000000 )
+        24   ( &3eacacad  &3eacacad  &3eacacad  &40000000 )
+        25   ( &3eacacad  &3eacacad  &3eacacad  &40000000 )
+        26   ( &3eacacad  &3eacacad  &3eacacad  &40000000 )
+        27   ( &3eacacad  &3eacacad  &3eacacad  &40000000 )
+        28   ( &3eacacad  &3eacacad  &3eacacad  &40000000 )
+        29   ( &3eacacad  &3eacacad  &3eacacad  &40000000 )
+        30   ( &3eacacad  &3eacacad  &3eacacad  &40000000 )
+        31   ( &3eacacad  &3eacacad  &3eacacad  &40000000 )
+        32   ( &3eacacad  &3eacacad  &3eacacad  &40000000 )
+        33   ( &3eacacad  &3eacacad  &3eacacad  &40000000 )
+    }
+    Triangles {
+        0    ( 2     1     0 )
+        1    ( 4     3     2 )
+        2    ( 7     6     5 )
+        3    ( 9     8     4 )
+        4    ( 12    11    10 )
+        5    ( 0     14    13 )
+        6    ( 17    16    15 )
+        7    ( 20    19    18 )
+        8    ( 23    22    21 )
+        9    ( 25    24    23 )
+        10   ( 18    26    25 )
+        11   ( 10    28    27 )
+        12   ( 5     29    20 )
+        13   ( 21    30    12 )
+        14   ( 13    31    7 )
+        15   ( 15    32    9 )
+        16   ( 1     14    0 )
+        17   ( 3     1     2 )
+        18   ( 6     29    5 )
+        19   ( 8     3     4 )
+        20   ( 11    28    10 )
+        21   ( 14    31    13 )
+        22   ( 16    32    15 )
+        23   ( 19    26    18 )
+        24   ( 22    30    21 )
+        25   ( 24    22    23 )
+        26   ( 26    24    25 )
+        27   ( 28    33    27 )
+        28   ( 29    19    20 )
+        29   ( 30    11    12 )
+        30   ( 31    6     7 )
+        31   ( 32    8     9 )
+    }
+}
+Part {
+    Name: "defaultpart"
+    PieceCount: 2
+    LocatorCount: 4
+    Pieces: 0 1
+    Locators: 0 1 2 3
+}
+Locator {
+    Name: "ml3"
+    Hookup: "flare.vehicle.whiteledl"
+    Index: 0
+    Position: ( &bbf05880  &30372055  &bc10936e )
+    Rotation: ( &3f7b14bf  &00000000  &3e47c5c5  &327d0a73 )
+    Scale: ( &3f800000  &3f800000  &3f800000 )
+}
+Locator {
+    Name: "ml3"
+    Hookup: "flare.vehicle.whiteledl"
+    Index: 1
+    Position: ( &bbf05880  &30372055  &bc10936e )
+    Rotation: ( &3f7b14bf  &00000000  &be47c5c5  &b27d0a73 )
+    Scale: ( &3f800000  &3f800000  &3f800000 )
+}
+Locator {
+    Name: "ml3"
+    Hookup: "flare.vehicle.whiteledl"
+    Index: 2
+    Position: ( &3c18a760  &30372055  &bc10936e )
+    Rotation: ( &3f7b14bf  &00000000  &be47c5c5  &b27d0a73 )
+    Scale: ( &3f800000  &3f800000  &3f800000 )
+}
+Locator {
+    Name: "ml3"
+    Hookup: "flare.vehicle.whiteledl"
+    Index: 3
+    Position: ( &3c18a760  &30372055  &bc10936e )
+    Rotation: ( &3f7b14bf  &00000000  &3e47c5c5  &327d0a73 )
+    Scale: ( &3f800000  &3f800000  &3f800000 )
+}
+

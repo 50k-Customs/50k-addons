@@ -1,0 +1,3 @@
+map	2d	50k_super_logo.tga
+addr	clamp_to_edge	clamp_to_edge
+usage	ui

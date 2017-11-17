@@ -753,7 +753,7 @@ Locator {
     Name: "ml3"
     Hookup: "flare.vehicle.lobarorangel"
     Index: 0
-    Position: ( &394d94a0  &30bb46de  &bc93da4b )
+    Position: ( &394d9800  &30bb46de  &bc93da4b )
     Rotation: ( &b34da14d  &34066a8d  &beb6e51d  &3f6f1c09 )
     Scale: ( &3f800002  &3f800001  &3f800000 )
 }
@@ -761,7 +761,7 @@ Locator {
     Name: "ml3"
     Hookup: "flare.vehicle.lobarorangel"
     Index: 1
-    Position: ( &38959340  &30bb46de  &bc93da4b )
+    Position: ( &38959000  &30bb46de  &bc93da4b )
     Rotation: ( &333e6974  &33fafc48  &3eb596d0  &3f6f5bb3 )
     Scale: ( &3f7ffffe  &3f7ffffe  &3f800000 )
 }

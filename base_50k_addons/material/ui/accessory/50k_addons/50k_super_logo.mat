@@ -1,0 +1,5 @@
+material : "ui"
+{
+	texture : "50k_super_logo.tobj"
+	texture_name : "texture"
+}

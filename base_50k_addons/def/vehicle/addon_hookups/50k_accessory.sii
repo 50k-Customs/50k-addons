@@ -114,6 +114,34 @@ accessory_hookup_data : 50k_beacon_l.addon_hookup
 	unlock: 10
 }
 
+accessory_hookup_data : 50k_super.addon_hookup
+{
+	name: "50k customs: SUPER Logo"
+	price: 150
+	icon: "50k_addons/50k_super_logo"
+	model: "/vehicle/truck/upgrade/50k_addons/50k_super_logo.pmd"
+	suitable_for[]: "r_grill"
+	suitable_for[]: "b_grill"
+	suitable_for[]: "f_grill"
+	suitable_for[]: "f_intake_cab"
+	suitable_for[]: "f_inlay_cab"
+	unlock: 7
+}
+
+accessory_hookup_data : 50k_hella_m1.addon_hookup
+{
+	name: "50k customs: Hella LED Marker White"
+	price: 80
+	icon: "50k_addons/50k_hella_marker_white"
+	model: "/vehicle/truck/upgrade/50k_addons/50k_hella_marker_white.pmd"
+	suitable_for[]: "r_grill"
+	suitable_for[]: "b_grill"
+	suitable_for[]: "f_grill"
+	suitable_for[]: "f_intake_cab"
+	suitable_for[]: "f_inlay_cab"
+	unlock: 5
+}
+
 accessory_hookup_data : 50k_grill_l.addon_hookup
 {
 	name: "50k customs: Grill Light"
@@ -171,6 +199,17 @@ accessory_hookup_data : 50k_rbox_plt.addon_hookup
 	model: "/vehicle/truck/upgrade/50k_addons/50k_lbox_plate.pmd"
 	suitable_for[]: "r_grill"
 	unlock: 15
+	electric_type: vehicle
+}
+
+accessory_hookup_data : 50k_rbox_nxt.addon_hookup
+{
+	name: "50k customs: NextGen SCANIA Light Board"
+	price: 4500
+	icon: "50k_addons/50k_lbox_scania_2016"
+	model: "/vehicle/truck/upgrade/50k_addons/50k_lbox_scania_2016.pmd"
+	suitable_for[]: "r_grill"
+	unlock: 17
 	electric_type: vehicle
 }
 

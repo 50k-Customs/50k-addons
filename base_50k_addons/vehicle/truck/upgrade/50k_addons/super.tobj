@@ -1,0 +1,5 @@
+map 2d
+     super.dds
+addr
+     clamp_to_edge
+     clamp_to_edge
