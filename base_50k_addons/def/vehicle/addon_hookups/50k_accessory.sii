@@ -139,6 +139,7 @@ accessory_hookup_data : 50k_hella_m1.addon_hookup
 	suitable_for[]: "f_grill"
 	suitable_for[]: "f_intake_cab"
 	suitable_for[]: "f_inlay_cab"
+	electric_type: vehicle
 	unlock: 5
 }
 
@@ -153,6 +154,7 @@ accessory_hookup_data : 50k_grill_l.addon_hookup
 	suitable_for[]: "f_grill"
 	suitable_for[]: "f_intake_cab"
 	suitable_for[]: "f_inlay_cab"
+	electric_type: vehicle
 	unlock: 5
 }
 
@@ -167,6 +169,7 @@ accessory_hookup_data : 50k_lobar_l.addon_hookup
 	suitable_for[]: "f_grill"
 	suitable_for[]: "f_intake_cab"
 	suitable_for[]: "f_inlay_cab"
+	electric_type: vehicle
 	unlock: 5
 }
 

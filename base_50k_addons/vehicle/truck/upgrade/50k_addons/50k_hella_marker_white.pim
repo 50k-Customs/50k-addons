@@ -11,7 +11,7 @@ Global {
     PieceCount: 2
     PartCount: 1
     BoneCount: 0
-    LocatorCount: 4
+    LocatorCount: 2
     Skeleton: "50k_hella_marker_white.pis"
 }
 Material {
@@ -459,40 +459,24 @@ Piece {
 Part {
     Name: "defaultpart"
     PieceCount: 2
-    LocatorCount: 4
+    LocatorCount: 2
     Pieces: 0 1
-    Locators: 0 1 2 3
+    Locators: 0 1
 }
 Locator {
     Name: "ml3"
     Hookup: "flare.vehicle.whiteledl"
     Index: 0
-    Position: ( &bbf05880  &30372055  &bc10936e )
-    Rotation: ( &3f7b14bf  &00000000  &3e47c5c5  &327d0a73 )
+    Position: ( &bc15d8a0  &30372055  &bc10936e )
+    Rotation: ( &3f800000  &00000000  &00000000  &00000000 )
     Scale: ( &3f800000  &3f800000  &3f800000 )
 }
 Locator {
     Name: "ml3"
     Hookup: "flare.vehicle.whiteledl"
     Index: 1
-    Position: ( &bbf05880  &30372055  &bc10936e )
-    Rotation: ( &3f7b14bf  &00000000  &be47c5c5  &b27d0a73 )
-    Scale: ( &3f800000  &3f800000  &3f800000 )
-}
-Locator {
-    Name: "ml3"
-    Hookup: "flare.vehicle.whiteledl"
-    Index: 2
-    Position: ( &3c18a760  &30372055  &bc10936e )
-    Rotation: ( &3f7b14bf  &00000000  &be47c5c5  &b27d0a73 )
-    Scale: ( &3f800000  &3f800000  &3f800000 )
-}
-Locator {
-    Name: "ml3"
-    Hookup: "flare.vehicle.whiteledl"
-    Index: 3
-    Position: ( &3c18a760  &30372055  &bc10936e )
-    Rotation: ( &3f7b14bf  &00000000  &3e47c5c5  &327d0a73 )
+    Position: ( &3c172ba0  &30372055  &bc10936e )
+    Rotation: ( &3f800000  &00000000  &00000000  &00000000 )
     Scale: ( &3f800000  &3f800000  &3f800000 )
 }
 

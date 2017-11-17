@@ -3593,7 +3593,7 @@ Locator {
 Locator {
     Name: "slot_13"
     Index: 12
-    Position: ( &bf7181e1  &3cd382fe  &3d740741 )
+    Position: ( &bf71c1c6  &3cd26f7e  &3d734b41 )
     Rotation: ( &3f3b2214  &be8d3dc3  &3f140085  &be70d7ce )
     Scale: ( &3f800000  &3f7ffffe  &3f800000 )
 }
@@ -3628,7 +3628,7 @@ Locator {
 Locator {
     Name: "slot_16"
     Index: 17
-    Position: ( &3f7181de  &3cd382fe  &3d740741 )
+    Position: ( &3f71c1c3  &3cd26f7e  &3d734b41 )
     Rotation: ( &3f3b2213  &be8d3dc2  &bf140086  &3e70d7c5 )
     Scale: ( &3f800000  &3f7ffffe  &3f800000 )
 }
