@@ -1,5 +1,6 @@
 Legendary tuning addon pack "50k addons":
 
+* Kelsa VisorBars for NextGen SCANIAS
 * Kelsa HiBars for NextGen SCANIAS
 * Hella LED Marker Light (1.) (White)
 * Light Board (1.) for NextGen SCANIAS
@@ -23,10 +24,7 @@ Light types:
 
 ### CHANGELOG FOR LATEST VERSION
 
-- Kelsa HiBars for NextGen SCANIAS
-- Hella LED Marker Light (White)
-- Light Board for NextGen SCANIAS
-- SUPER Logo
+- Kelsa VisorBars for NextGen SCANIAS
 
 ### CREDITS
 

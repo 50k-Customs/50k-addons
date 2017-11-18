@@ -1,0 +1,14 @@
+SiiNunit
+{
+accessory_addon_data : 50k_fulbar_h.scania.s_2016.r_grill
+{
+	name: "50k customs: Kelsa HiBar + VisorBar"
+	price: 6000
+	unlock: 12
+	icon: "r_grill/scania_2016/50k_hibar_visorbar"
+	
+	exterior_model: "/vehicle/truck/upgrade/50k_addons/r_grill/50k_scania_2016_sh_kelsa_hibar_visorbar.pmd"
+	
+	suitable_for[]: "highline.scania.s_2016.cabin"
+}
+}

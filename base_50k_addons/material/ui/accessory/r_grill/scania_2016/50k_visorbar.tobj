@@ -1,0 +1,3 @@
+map	2d	50k_visorbar.tga
+addr	clamp_to_edge	clamp_to_edge
+usage	ui
