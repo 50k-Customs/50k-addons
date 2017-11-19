@@ -1,0 +1,14 @@
+SiiNunit
+{
+accessory_addon_data : 50k_slots_h.scania.r_2016.r_grill
+{
+	name: "50k customs: Only Slots"
+	price: 2400
+	unlock: 4
+	icon: "50k_slots"
+	
+	exterior_model: "/vehicle/truck/upgrade/50k_addons/r_grill/50k_scania_2016_rh_slots.pmd"
+	
+	suitable_for[]: "highline.scania.r_2016.cabin"
+}
+}
