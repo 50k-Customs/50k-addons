@@ -3,7 +3,7 @@ Legendary tuning addon pack "50k addons":
 * Roof grills with slots only for NextGen SCANIAS
 * Kelsa VisorBars for NextGen SCANIAS
 * Kelsa HiBars for NextGen SCANIAS
-* Hella LED Marker Light (1.) (White)
+* Hella LED Marker Light (1.) (White, Orange)
 * Light Board (1.) for NextGen SCANIAS
 * SUPER Logo
 
@@ -25,9 +25,8 @@ Light types:
 
 ### CHANGELOG FOR LATEST VERSION
 
-- Only slots for NextGen SCANIAS
-- Fixed lampmask problem on LED marker light
-- Added extra slots on VisorBars
+- Tweaked slots for horns (rotate a bit up, so horns do not intersect cabin)
+- Added orange Hella LED Marker light
 
 ### CREDITS
 

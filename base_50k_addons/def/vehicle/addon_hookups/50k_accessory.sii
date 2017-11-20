@@ -143,6 +143,21 @@ accessory_hookup_data : 50k_hella_m1.addon_hookup
 	unlock: 5
 }
 
+accessory_hookup_data : 50k_hella_m2.addon_hookup
+{
+	name: "50k customs: Hella LED Marker Orange"
+	price: 80
+	icon: "50k_addons/50k_hella_marker_orange"
+	model: "/vehicle/truck/upgrade/50k_addons/50k_hella_marker_orange.pmd"
+	suitable_for[]: "r_grill"
+	suitable_for[]: "b_grill"
+	suitable_for[]: "f_grill"
+	suitable_for[]: "f_intake_cab"
+	suitable_for[]: "f_inlay_cab"
+	electric_type: vehicle
+	unlock: 5
+}
+
 accessory_hookup_data : 50k_grill_l.addon_hookup
 {
 	name: "50k customs: Grill Light"

@@ -14,7 +14,7 @@ Global {
     LookCount: 1
     VariantCount: 1
     PartCount: 1
-    MaterialCount: 2
+    MaterialCount: 1
 }
 Look {
     Name: "default"
@@ -65,42 +65,6 @@ Look {
         Texture {
             Tag: "texture[2]:texture_reflection"
             Value: "/material/environment/vehicle_reflection"
-        }
-    }
-    Material {
-        Alias: "upg_shared"
-        Effect: "eut2.dif.spec"
-        Flags: 0
-        AttributeCount: 5
-        TextureCount: 1
-        Attribute {
-            Format: FLOAT3
-            Tag: "diffuse"
-            Value: ( 1.0 1.0 1.0 )
-        }
-        Attribute {
-            Format: FLOAT3
-            Tag: "specular"
-            Value: ( 0.20000000298023224 0.20000000298023224 0.20000000298023224 )
-        }
-        Attribute {
-            Format: FLOAT
-            Tag: "shininess"
-            Value: ( 4.0 )
-        }
-        Attribute {
-            Format: FLOAT
-            Tag: "add_ambient"
-            Value: ( 0.0 )
-        }
-        Attribute {
-            Format: FLOAT
-            Tag: "reflection"
-            Value: ( 0.0 )
-        }
-        Texture {
-            Tag: "texture[0]:texture_base"
-            Value: "/vehicle/truck/upgrade/share/upg_shared"
         }
     }
 }
