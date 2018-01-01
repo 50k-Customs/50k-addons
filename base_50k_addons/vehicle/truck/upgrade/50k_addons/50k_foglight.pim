@@ -1,6 +1,6 @@
 Header {
     FormatVersion: 5
-    Source: "Blender 2.79.0 (hash: 5bd8ac9abfa), SCS Blender Tools: 1.10.001193f"
+    Source: "Blender 2.79.0 (hash: 5bd8ac9abfa), SCS Blender Tools: 1.11.2032583"
     Type: "Model"
     Name: "50k_foglight"
 }
@@ -11,7 +11,7 @@ Global {
     PieceCount: 3
     PartCount: 1
     BoneCount: 0
-    LocatorCount: 0
+    LocatorCount: 1
     Skeleton: "50k_foglight.pis"
 }
 Material {
@@ -1550,8 +1550,16 @@ Piece {
 Part {
     Name: "defaultpart"
     PieceCount: 3
-    LocatorCount: 0
+    LocatorCount: 1
     Pieces: 0 1 2
-    Locators:
+    Locators: 0
+}
+Locator {
+    Name: "ml3"
+    Hookup: "flare.vehicle.yellow.fogl_50k"
+    Index: 0
+    Position: ( &00000000  &bd712b10  &bcf39612 )
+    Rotation: ( &3f800000  &00000000  &00000000  &00000000 )
+    Scale: ( &3f800000  &3f800000  &3f800000 )
 }
 

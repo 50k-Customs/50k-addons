@@ -8,6 +8,7 @@ accessory_addon_data : 50k_fulbar_h.scania.r_2016.r_grill
 	icon: "r_grill/scania_2016/50k_hibar_visorbar"
 	
 	exterior_model: "/vehicle/truck/upgrade/50k_addons/r_grill/50k_scania_2016_rh_kelsa_hibar_visorbar.pmd"
+	variant: "chrome"
 	
 	suitable_for[]: "highline.scania.r_2016.cabin"
 }

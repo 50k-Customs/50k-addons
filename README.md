@@ -8,6 +8,13 @@ Version 1.0 preview:
 
 ### CONTENT
 
+* Roof grills with slots only for NextGen SCANIAS
+* Kelsa VisorBars for NextGen SCANIAS
+* Kelsa HiBars for NextGen SCANIAS
+* Hella LED Marker Light (1.) (White, Orange)
+* Light Board (1.) for NextGen SCANIAS
+
+* SUPER Logo
 * Light Board (1.)
 * Plate Light Board (1.)
 * Michelin Dolls (yellow and white) (1.)

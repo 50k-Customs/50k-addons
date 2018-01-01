@@ -1,0 +1,15 @@
+SiiNunit
+{
+accessory_addon_data : 50k_p_visb_h.scania.s_2016.r_grill
+{
+	name: "50k customs: Kelsa VisorBar Paint"
+	price: 3199
+	unlock: 10
+	icon: "r_grill/scania_2016/50k_p_visorbar"
+	
+	exterior_model: "/vehicle/truck/upgrade/50k_addons/r_grill/50k_scania_2016_sh_kelsa_visorbar.pmd"
+	variant: "paint"
+	
+	suitable_for[]: "highline.scania.s_2016.cabin"
+}
+}

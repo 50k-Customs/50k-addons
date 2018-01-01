@@ -5,8 +5,8 @@ Legendary tuning addon pack "50k addons":
 * Kelsa HiBars for NextGen SCANIAS
 * Hella LED Marker Light (1.) (White, Orange)
 * Light Board (1.) for NextGen SCANIAS
-* SUPER Logo
 
+* SUPER Logo
 * Light Board (1.)
 * Plate Light Board (1.)
 * Michelin Dolls (yellow and white) (1.)
@@ -25,8 +25,8 @@ Light types:
 
 ### CHANGELOG FOR LATEST VERSION
 
-- Tweaked slots for horns (rotate a bit up, so horns do not intersect cabin)
-- Added orange Hella LED Marker light
+- Added paintable variants of all bars for NextGen SCANIAS
+- Added flare hookup to fog light to cast yellow light
 
 ### CREDITS
 
