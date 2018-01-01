@@ -1,7 +1,9 @@
 # 50k-addons
 Legendary mod pack with most useful truck hookup addons for Euro Truck Simulator 2 by 50k.
 
-Latest version preview:
+Version 2.4 preview:
+![](/preview/v2_4.jpg?raw=true "50k addons preview - NextGen SCANIAS")
+Version 2.1 preview:
 ![](/preview/v2_1.jpg?raw=true "50k addons preview - NextGen SCANIAS")
 Version 1.0 preview:
 ![](/preview/v1_0.jpg?raw=true "50k addons preview")
