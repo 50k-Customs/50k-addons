@@ -25,8 +25,8 @@ Light types:
 
 ### CHANGELOG FOR LATEST VERSION
 
-- Added paintable variants of all bars for NextGen SCANIAS
-- Added flare hookup to fog light to cast yellow light
+- Added support for NextGen SCANIA 8x4
+- Fixed paintable bars uv mapping to better work with skins
 
 ### CREDITS
 
@@ -41,5 +41,5 @@ Light types:
 ### KNOWN ISSUES
 
 No known issues.
-It was tested on 1.30.Xs.
+It was tested on 1.31.Xs.
 .

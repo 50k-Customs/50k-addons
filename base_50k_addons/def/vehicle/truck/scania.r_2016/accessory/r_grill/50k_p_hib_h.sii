@@ -11,5 +11,6 @@ accessory_addon_data : 50k_p_hib_h.scania.r_2016.r_grill
 	variant: "paint"
 	
 	suitable_for[]: "highline.scania.r_2016.cabin"
+	suitable_for[]: "highline_8x4.scania.r_2016.cabin"
 }
 }
