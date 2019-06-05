@@ -25,8 +25,7 @@ Light types:
 
 ### CHANGELOG FOR LATEST VERSION
 
-- Added support for NextGen SCANIA 8x4
-- Fixed paintable bars uv mapping to better work with skins
+- Re-converted for 1.35
 
 ### CREDITS
 
@@ -41,5 +40,5 @@ Light types:
 ### KNOWN ISSUES
 
 No known issues.
-It was tested on 1.31.Xs.
+It was tested on 1.35.Xs.
 .
