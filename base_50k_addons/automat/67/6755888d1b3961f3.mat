@@ -1,0 +1,12 @@
+material : "eut2.dif.spec.add.env" {
+	texture[0] : "/vehicle/truck/upgrade/50k_addons/michelin.tobj"
+	texture_name[0] : "texture_base"
+	texture[1] : "/material/environment/vehicle_reflection.tobj"
+	texture_name[1] : "texture_reflection"
+	diffuse : { 0.8 , 0.8 , 0.8 }
+	specular : { 0.2 , 0.2 , 0.2 }
+	shininess : 95
+	env_factor : { 0.74902 , 0.74902 , 0.74902 }
+	fresnel : { 0.2 , 0.9 }
+
+}

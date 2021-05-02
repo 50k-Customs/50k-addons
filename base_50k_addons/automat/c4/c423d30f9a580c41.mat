@@ -1,0 +1,14 @@
+material : "eut2.glass.rfx" {
+	texture[0] : "/vehicle/truck/share/glass_ex.tobj"
+	texture_name[0] : "texture_base"
+	texture[1] : "/material/environment/vehicle_reflection.tobj"
+	texture_name[1] : "texture_reflection"
+	add_ambient : 0
+	diffuse : { 1 , 1 , 1 }
+	env_factor : { 1.61245 , 1.61245 , 1.61245 }
+	fresnel : { 1 , 2 }
+	shininess : 95
+	specular : { 1.08327 , 1.08327 , 1.08327 }
+	tint : { 0.563945 , 0.603827 , 0.58529 }
+	tint_opacity : 0.01
+}

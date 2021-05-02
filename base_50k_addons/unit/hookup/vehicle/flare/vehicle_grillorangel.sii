@@ -1,0 +1,21 @@
+SiiNunit
+{
+flare_vehicle: flare.vehicle.grillorangel
+{
+	dir_type: wide
+	light_type: parking
+
+@include "boreman_amber.sui"
+
+	model: "/obel/boreman_led/flary/bor_amber.pmd"
+	default_scale: 0.15
+	scale_factor: 2
+	visual_offset: 0.075
+
+	#scaling_start_distance: 0
+	#scaling_end_distance: 60
+
+@include "vehicle_bulb_type_led.sui"
+}
+}
+

@@ -1,0 +1,14 @@
+	# Simulating side marker - ECE R7
+
+	type: spot
+	setup: candela_hue_saturation
+	diffuse_color: (8, 38, 100) ## hsv brightnes, hue,saturation
+	specular_color: (8, 38, 100)
+	range: 2
+	forward_distance: false
+	inner_angle: 5  //5
+	outer_angle: 80  //80
+	fade_distance: 100
+	fade_span: 30
+	
+	

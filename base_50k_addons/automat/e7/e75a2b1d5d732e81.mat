@@ -1,0 +1,13 @@
+material : "eut2.dif.spec.add.env.rfx" {
+	texture[0] : "/obel/boreman_led/boreman.tobj"
+	texture_name[0] : "texture_base"
+	texture[1] : "/material/environment/vehicle_reflection.tobj"
+	texture_name[1] : "texture_reflection"
+	add_ambient : 0
+	diffuse : { 1 , 1 , 1 }
+	env_factor : { 0.214041 , 0.214041 , 0.214041 }
+	fresnel : { 0.2 , 0.9 }
+	reflection : 0
+	shininess : 115
+	specular : { 0.273307 , 0.273307 , 0.273307 }
+}

@@ -1,0 +1,14 @@
+material : "eut2.lamp.add.env.rfx" {
+	texture[0] : "/vehicle/truck/upgrade/50k_addons/50k_hella_marker.tobj"
+	texture_name[0] : "texture_base"
+	texture[1] : "/vehicle/truck/upgrade/50k_addons/50k_hella_marker.tobj"
+	texture_name[1] : "texture_mask"
+	texture[2] : "/material/environment/vehicle_reflection.tobj"
+	texture_name[2] : "texture_reflection"
+	add_ambient : 0
+	diffuse : { 1 , 1 , 1 }
+	env_factor : { 1 , 1 , 1 }
+	fresnel : { 0.2 , 0.9 }
+	shininess : 30
+	specular : { 1 , 1 , 1 }
+}

@@ -1,0 +1,12 @@
+material : "eut2.dif.spec.add.env.nofresnel.rfx" {
+	texture[0] : "/vehicle/truck/upgrade/share/upg_chrome.tobj"
+	texture_name[0] : "texture_base"
+	texture[1] : "/material/environment/vehicle_reflection.tobj"
+	texture_name[1] : "texture_reflection"
+	add_ambient : -0.25
+	diffuse : { 1 , 1 , 1 }
+	env_factor : { 2 , 2 , 2 }
+	reflection : 0
+	shininess : 95
+	specular : { 1 , 1 , 1 }
+}

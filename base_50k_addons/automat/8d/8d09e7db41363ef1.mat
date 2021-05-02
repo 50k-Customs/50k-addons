@@ -1,0 +1,10 @@
+material : "eut2.lamp.rfx" {
+	texture[0] : "/obel/boreman_led/boreman.tobj"
+	texture_name[0] : "texture_base"
+	texture[1] : "/obel/boreman_led/boreman_blink_m.tobj"
+	texture_name[1] : "texture_mask"
+	add_ambient : 0
+	diffuse : { 1 , 1 , 1 }
+	shininess : 200
+	specular : { 0.272068 , 0.272068 , 0.272068 }
+}

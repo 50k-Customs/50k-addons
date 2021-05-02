@@ -1,0 +1,9 @@
+material : "eut2.dif.spec.rfx" {
+	texture[0] : "/vehicle/truck/upgrade/share/upg_shared.tobj"
+	texture_name[0] : "texture_base"
+	add_ambient : 0
+	diffuse : { 1 , 1 , 1 }
+	reflection : 0
+	shininess : 4
+	specular : { 0.0331048 , 0.0331048 , 0.0331048 }
+}

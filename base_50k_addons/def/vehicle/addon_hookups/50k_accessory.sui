@@ -1,0 +1,334 @@
+### Redifined to have extra suitable for
+
+accessory_hookup_data : 50k_slght1.addon_hookup
+{
+	name: "50k customs: Small Side Marker (R)"
+	price: 110
+	icon: "smalllight_07"
+	model: "/vehicle/truck/upgrade/smalllight/marker_2.pmd"
+    suitable_for[]: "kuzov"
+	suitable_for[]: "b_grill"
+	suitable_for[]: "f_grill"
+	electric_type: vehicle
+	unlock: 0
+}
+accessory_hookup_data : 50k_slght2.addon_hookup
+{
+	name: "50k customs: Small Side Marker (L)"
+	price: 110
+	icon: "smalllight_08"
+	model: "/vehicle/truck/upgrade/smalllight/marker_1.pmd"
+    suitable_for[]: "kuzov"
+	suitable_for[]: "b_grill"
+	suitable_for[]: "f_grill"
+	electric_type: vehicle
+	unlock: 0
+}
+accessory_hookup_data : 50k_slght3.addon_hookup
+{
+	name: "50k customs: Large Side Marker (R)"
+	price: 120
+	icon: "smalllight_09"
+	model: "/vehicle/truck/upgrade/smalllight/marker_l_2.pmd"
+    suitable_for[]: "kuzov"
+	suitable_for[]: "b_grill"
+	suitable_for[]: "f_grill"
+	electric_type: vehicle
+	unlock: 0
+}
+accessory_hookup_data : 50k_slght4.addon_hookup
+{
+	name: "50k customs: Large Side Marker (L)"
+	price: 120
+	icon: "smalllight_10"
+	model: "/vehicle/truck/upgrade/smalllight/marker_l_1.pmd"
+    suitable_for[]: "kuzov"
+	suitable_for[]: "b_grill"
+	suitable_for[]: "f_grill"
+	electric_type: vehicle
+	unlock: 0
+}
+accessory_hookup_data : 50k_slght5.addon_hookup
+{
+	name: "Light Chrome 1"
+	price: 90
+	icon: "smalllight_01"
+	model: "/vehicle/truck/upgrade/smalllight/smalllight_01.pmd"
+	suitable_for[]: "r_grill"
+	electric_type: vehicle
+	unlock: 0
+}
+accessory_hookup_data : 50k_slght6.addon_hookup
+{
+	name: "Light Chrome 2"
+	price: 120
+	icon: "smalllight_02"
+	model: "/vehicle/truck/upgrade/smalllight/smalllight_02.pmd"
+	suitable_for[]: "r_grill"
+	electric_type: vehicle
+	unlock: 0
+}
+accessory_hookup_data : 50k_slght7.addon_hookup
+{
+	name: "Light Chrome 3"
+	price: 110
+	icon: "smalllight_03"
+	model: "/vehicle/truck/upgrade/smalllight/smalllight_03.pmd"
+	suitable_for[]: "r_grill"
+	electric_type: vehicle
+ 	unlock: 0
+}
+accessory_hookup_data : 50k_slght8.addon_hookup
+{
+	name: "Light Chrome 4"
+	price: 90
+	icon: "smalllight_04"
+	model: "/vehicle/truck/upgrade/smalllight/smalllight_04.pmd"
+	suitable_for[]: "r_grill"
+	electric_type: vehicle
+	unlock: 0
+}
+accessory_hookup_data : 50k_slght9.addon_hookup
+{
+	name: "Light Chrome 5"
+	price: 90
+	icon: "smalllight_05"
+	model: "/vehicle/truck/upgrade/smalllight/smalllight_05.pmd"
+	suitable_for[]: "r_grill"
+	electric_type: vehicle
+	unlock: 0
+}
+accessory_hookup_data : 50k_slght10.addon_hookup
+{
+	name: "Light Chrome 6"
+	price: 110
+	icon: "smalllight_06"
+	model: "/vehicle/truck/upgrade/smalllight/smalllight_06.pmd"
+	suitable_for[]: "r_grill"
+	electric_type: vehicle
+	unlock: 0
+}
+
+### Real 50k customs accessories
+
+accessory_hookup_data : 50k_beacon_l.addon_hookup
+{
+	name: "50k customs: Beacon"
+	price: 120
+	icon: "50k_addons/50k_beacon_01"
+	model: "/vehicle/truck/upgrade/50k_addons/50k_beacon_01.pmd"
+	suitable_for[]: "r_grill"
+	suitable_for[]: "f_grill"
+	unlock: 0
+}
+
+accessory_hookup_data : 50k_super.addon_hookup
+{
+	name: "50k customs: SUPER Logo"
+	price: 150
+	icon: "50k_addons/50k_super_logo"
+	model: "/vehicle/truck/upgrade/50k_addons/50k_super_logo.pmd"
+	suitable_for[]: "r_grill"
+	suitable_for[]: "b_grill"
+	suitable_for[]: "f_grill"
+	suitable_for[]: "f_intake_cab"
+	suitable_for[]: "f_inlay_cab"
+	unlock: 0
+}
+
+accessory_hookup_data : 50k_hella_m1.addon_hookup
+{
+	name: "50k customs: Hella LED Marker White"
+	price: 80
+	icon: "50k_addons/50k_hella_marker_white"
+	model: "/vehicle/truck/upgrade/50k_addons/50k_hella_marker_white.pmd"
+	suitable_for[]: "r_grill"
+	suitable_for[]: "b_grill"
+	suitable_for[]: "f_grill"
+	suitable_for[]: "f_intake_cab"
+	suitable_for[]: "f_inlay_cab"
+	electric_type: vehicle
+	unlock: 0
+}
+
+accessory_hookup_data : 50k_hella_m2.addon_hookup
+{
+	name: "50k customs: Hella LED Marker Orange"
+	price: 80
+	icon: "50k_addons/50k_hella_marker_orange"
+	model: "/vehicle/truck/upgrade/50k_addons/50k_hella_marker_orange.pmd"
+	suitable_for[]: "r_grill"
+	suitable_for[]: "b_grill"
+	suitable_for[]: "f_grill"
+	suitable_for[]: "f_intake_cab"
+	suitable_for[]: "f_inlay_cab"
+	electric_type: vehicle
+	unlock: 0
+}
+
+accessory_hookup_data : 50k_grill_l.addon_hookup
+{
+	name: "50k customs: Grill Light"
+	price: 90
+	icon: "50k_addons/50k_grilllight_000"
+	model: "/vehicle/truck/upgrade/50k_addons/50k_grill_light.pmd"
+	suitable_for[]: "r_grill"
+	suitable_for[]: "b_grill"
+	suitable_for[]: "f_grill"
+	suitable_for[]: "f_intake_cab"
+	suitable_for[]: "f_inlay_cab"
+	electric_type: vehicle
+	unlock: 0
+}
+
+accessory_hookup_data : 50k_lobar_l.addon_hookup
+{
+	name: "50k customs: Lobar Light"
+	price: 90
+	icon: "50k_addons/50k_lobarlight_000"
+	model: "/vehicle/truck/upgrade/50k_addons/50k_lbar_light.pmd"
+	suitable_for[]: "b_grill"
+	suitable_for[]: "r_grill"
+	suitable_for[]: "f_grill"
+	suitable_for[]: "f_intake_cab"
+	suitable_for[]: "f_inlay_cab"
+	electric_type: vehicle
+	unlock: 0
+}
+
+accessory_hookup_data : 50k_loli_l.addon_hookup
+{
+	name: "50k customs: Hella Lollipop"
+	price: 80
+	icon: "50k_addons/50k_hella_lolipop0"
+	model: "/vehicle/truck/upgrade/50k_addons/50k_lolipop_light.pmd"
+	suitable_for[]: "r_grill"
+	suitable_for[]: "f_inlay_cab"
+	unlock: 0
+}
+
+accessory_hookup_data : 50k_rbox.addon_hookup
+{
+	name: "50k customs: Light Board Box"
+	price: 1500
+	icon: "50k_addons/50k_lbox_highline0"
+	model: "/vehicle/truck/upgrade/50k_addons/50k_lbox.pmd"
+	suitable_for[]: "r_grill"
+	unlock: 0
+	electric_type: vehicle
+}
+
+accessory_hookup_data : 50k_rbox_plt.addon_hookup
+{
+	name: "50k customs: Light Board Plate"
+	price: 3000
+	icon: "50k_addons/50k_lbox_topline_0"
+	model: "/vehicle/truck/upgrade/50k_addons/50k_lbox_plate.pmd"
+	suitable_for[]: "r_grill"
+	unlock: 0
+	electric_type: vehicle
+}
+
+accessory_hookup_data : 50k_rbox_nxt.addon_hookup
+{
+	name: "50k customs: NextGen SCANIA Light Board"
+	price: 4500
+	icon: "50k_addons/50k_lbox_scania_2016"
+	model: "/vehicle/truck/upgrade/50k_addons/50k_lbox_scania_2016.pmd"
+	suitable_for[]: "r_grill"
+	unlock: 0
+	electric_type: vehicle
+}
+
+accessory_hookup_data : 50k_fog_l.addon_hookup
+{
+	name: "50k customs: Fog light"
+	price: 250
+	icon: "50k_addons/50k_foglight1_0000"
+	model: "/vehicle/truck/upgrade/50k_addons/50k_foglight.pmd"
+	suitable_for[]: "b_grill"
+	suitable_for[]: "f_grill"
+	unlock: 0
+}
+
+accessory_hookup_data : 50k_michln_w.addon_hookup
+{
+	name: "50k customs: MICHELIN white doll"
+	price: 90
+	icon: "50k_addons/50k_michelin_w_000"
+	model: "/vehicle/truck/upgrade/50k_addons/50k_michelin_white.pmd"
+	suitable_for[]: "r_grill"
+	unlock: 0
+	electric_type: vehicle
+}
+
+accessory_hookup_data : 50k_michln_y.addon_hookup
+{
+	name: "50k customs: MICHELIN yellow doll"
+	price: 90
+	icon: "50k_addons/50k_michelin_y_000"
+	model: "/vehicle/truck/upgrade/50k_addons/50k_michelin_yellow.pmd"
+	suitable_for[]: "r_grill"
+	unlock: 0
+	electric_type: vehicle
+}
+
+accessory_hookup_data : 50klight5.addon_hookup
+{
+	name: "50k customs: Hella Chromium Angel Eyes"
+	price: 1100
+	icon: "50k_addons/50k_hella_chrom_angel"
+	model: "/vehicle/truck/upgrade/50k_addons/50k_hella_chromium_angel.pmd"
+	suitable_for[]: "r_grill"
+	suitable_for[]: "f_grill"
+	unlock: 0
+}
+
+accessory_hookup_data : 50klight6.addon_hookup
+{
+	name: "50k customs: Hella Chromium"
+	price: 1100
+	icon: "50k_addons/50k_hella_chrom"
+	model: "/vehicle/truck/upgrade/50k_addons/50k_hella_chromium.pmd"
+	suitable_for[]: "r_grill"
+	suitable_for[]: "f_grill"
+	unlock: 0
+
+}
+
+accessory_hookup_data : 50kmudflap.addon_hookup
+{
+	name: "SCANIA mudflap"
+	price: 115
+	icon: "mudflap"
+	model: "/vehicle/truck/upgrade/mudflap/scan_r/50k_mudflap/mudflap.pmd"
+	suitable_for[]: "b_grill"
+	suitable_for[]: "spoiler"
+	suitable_for[]: "grill_a"
+	suitable_for[]: "grill_b"
+	suitable_for[]: "grill_c"
+	suitable_for[]: "exhaust_l"
+	suitable_for[]: "exhaust_r"
+	suitable_for[]: "sunshld"
+	suitable_for[]: "f_grill"
+	suitable_for[]: "r_grill"
+	suitable_for[]: "sidelight_l"
+	suitable_for[]: "sidelight_r"
+	suitable_for[]: "backlights"
+	suitable_for[]: "mask"
+	suitable_for[]: "grill_cab"
+	suitable_for[]: "grill_chs"
+	suitable_for[]: "grid_cab"
+	suitable_for[]: "grid_chs"
+	suitable_for[]: "mirrorslots"
+	suitable_for[]: "sideskirt"
+	suitable_for[]: "backled"
+	suitable_for[]: "backlt"
+	suitable_for[]: "airhose"
+	suitable_for[]: "f_plate"
+	suitable_for[]: "f_plate_b"
+	suitable_for[]: "f_plate_c"
+	suitable_for[]: "ffenders"
+	unlock: 0
+}
+

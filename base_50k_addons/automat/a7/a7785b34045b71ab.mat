@@ -1,0 +1,6 @@
+material : "eut2.flare.rfx" {
+	texture[0] : "/obel/boreman_led/flary/bor_f.tobj"
+	texture_name[0] : "texture_base"
+	aux[5] : { 5000 , 10 }
+	diffuse : { 0.253639 , 1 , 0.253639 }
+}

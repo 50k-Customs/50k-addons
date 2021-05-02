@@ -1,0 +1,16 @@
+SiiNunit
+{
+accessory_addon_data : shapeke2.scania.g_2016.f_grill
+{
+	name: "Slots"
+	price: 20
+	unlock: 0
+	icon: "50k_slots"
+	exterior_model: "/vehicle/truck/upgrade/frontgrill/scaniap2016/slots2.pmd"
+
+	suitable_for[]: "low_p_nofog.scania.g_2016.f_bumper"
+	suitable_for[]: "low_p.scania.g_2016.f_bumper"
+	suitable_for[]: "low_nofog.scania.g_2016.f_bumper"
+	suitable_for[]: "low_blk.scania.g_2016.f_bumper"
+}
+}

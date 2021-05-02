@@ -1,0 +1,17 @@
+SiiNunit
+{
+flare_vehicle: flare.vehicle.auxlight_50k
+{
+	dir_type: narrow
+	flare_inner_angle: 12
+	light_type: high_beam
+	model: "/model/flare/uniform_white_amplified.pmd"
+	visual_offset: 0.7
+	default_scale: 1.6
+	scale_factor: 4
+	scaling_start_distance: 0
+	scaling_end_distance: 60.0
+
+@include "vehicle_bulb_type_incandescent.sui"
+}
+}

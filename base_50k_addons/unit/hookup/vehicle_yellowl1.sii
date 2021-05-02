@@ -1,0 +1,15 @@
+SiiNunit
+{
+flare_vehicle: flare.vehicle.yellowl1
+{
+	dir_type: wide
+	light_type: parking
+     model: "/model/flare/vehicle_yellowl1.pmd"
+	
+     default_scale: 0.9
+	forward_distance: false
+	scale_factor: 2
+
+@include "vehicle_type_yellowl.sui"
+}
+}

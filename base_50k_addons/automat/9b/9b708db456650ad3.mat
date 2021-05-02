@@ -1,0 +1,10 @@
+material : "eut2.dif.spec.a.add.rfx" {
+	texture[0] : "/vehicle/truck/upgrade/50k_addons/50k_hella_glass.tobj"
+	texture_name[0] : "texture_base"
+	add_ambient : 0
+	diffuse : { 1 , 1 , 1 }
+	reflection : 0
+	shininess : 14
+	specular : { 0.214 , 0.214 , 0.214 }
+	queue_bias : 1
+}

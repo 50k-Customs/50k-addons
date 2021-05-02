@@ -25,12 +25,14 @@ Light types:
 
 ### CHANGELOG FOR LATEST VERSION
 
-- Re-converted for 1.35
+- Added paintable variants of all bars for NextGen SCANIAS
+- Added flare hookup to fog light to cast yellow light
 
 ### CREDITS
 
 - 50keda
 - SCS
+- gothscher
 
 ### SOFTWARE USED
 
@@ -40,5 +42,5 @@ Light types:
 ### KNOWN ISSUES
 
 No known issues.
-It was tested on 1.35.Xs.
+It was tested on 1.40.Xs.
 .

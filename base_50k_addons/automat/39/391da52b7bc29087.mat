@@ -1,0 +1,14 @@
+material : "eut2.lamp.add.env.rfx" {
+	texture[0] : "/vehicle/truck/upgrade/50k_addons/lbox.tobj"
+	texture_name[0] : "texture_base"
+	texture[1] : "/vehicle/truck/upgrade/50k_addons/lbox_lightmask.tobj"
+	texture_name[1] : "texture_mask"
+	texture[2] : "/material/environment/vehicle_reflection.tobj"
+	texture_name[2] : "texture_reflection"
+	add_ambient : 0
+	diffuse : { 1 , 1 , 1 }
+	env_factor : { 0.380056 , 0.380056 , 0.380056 }
+	fresnel : { 0.2 , 0.9 }
+	shininess : 90
+	specular : { 0.447988 , 0.447988 , 0.447988 }
+}

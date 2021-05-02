@@ -1,0 +1,14 @@
+material : "eut2.glass.rfx" {
+	texture[0] : "/vehicle/truck/upgrade/50k_addons/beacon_01.tobj"
+	texture_name[0] : "texture_base"
+	texture[1] : "/material/environment/vehicle_reflection.tobj"
+	texture_name[1] : "texture_reflection"
+	add_ambient : 0
+	diffuse : { 1 , 1 , 1 }
+	env_factor : { 0.380056 , 0.0740068 , 0.0315682 }
+	fresnel : { 1 , 2 }
+	shininess : 30
+	specular : { 0.787412 , 0.787412 , 0.787412 }
+	tint : { 1.29277 , 0.305275 , 0.0392652 }
+	tint_opacity : 0.15
+}

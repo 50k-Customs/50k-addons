@@ -1,0 +1,19 @@
+SiiNunit
+{
+flare_vehicle: flare.vehicle.yellow.fogl_50k
+{
+	dir_type: wide
+	light_type: parking
+
+@include "boreman_yellow.sui"
+
+	model: "/obel/boreman_led/flary/bor_yellow.pmd"
+	default_scale: 0.15
+	scale_factor: 2
+	visual_offset: 0.075
+
+	
+
+@include "vehicle_bulb_type_led.sui"
+}
+}

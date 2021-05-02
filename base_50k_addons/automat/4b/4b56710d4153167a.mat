@@ -1,0 +1,10 @@
+material : "eut2.dif.lum.spec.rfx" {
+	texture[0] : "/obel/boreman_led/boreman_2.tobj"
+	texture_name[0] : "texture_base"
+	add_ambient : 0
+	aux[5] : 0
+	diffuse : { 1 , 1 , 1 }
+	reflection : 0
+	shininess : 120
+	specular : { 0.0111475 , 1 , 1 }
+}

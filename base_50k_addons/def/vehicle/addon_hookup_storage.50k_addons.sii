@@ -1,6 +1,6 @@
 SiiNunit
 {
-@include "addon_hookups/50k_accessory.sii"
+@include "addon_hookups/50k_accessory.sui"
 
 }
 

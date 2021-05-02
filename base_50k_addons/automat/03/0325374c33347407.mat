@@ -1,0 +1,11 @@
+material : "eut2.dif.lum.decal.over.rfx" {
+	texture[0] : "/vehicle/truck/upgrade/50k_addons/lbox_sign.tobj"
+	texture_name[0] : "texture_base"
+	add_ambient : 0
+	aux[5] : { 10 , 0 }
+	diffuse : { 1 , 1 , 1 }
+	queue_bias : 0
+	reflection : 0
+	shininess : 40
+	specular : { 0.0100228 , 0.0100228 , 0.0100228 }
+}

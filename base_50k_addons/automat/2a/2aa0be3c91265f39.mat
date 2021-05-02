@@ -1,0 +1,9 @@
+material : "eut2.dif.spec.rfx" {
+	texture[0] : "/vehicle/truck/upgrade/50k_addons/beacon_01.tobj"
+	texture_name[0] : "texture_base"
+	add_ambient : 0
+	diffuse : { 1 , 1 , 1 }
+	reflection : 0
+	shininess : 20
+	specular : { 0.073239 , 0.073239 , 0.073239 }
+}

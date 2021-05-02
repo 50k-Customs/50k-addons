@@ -1,0 +1,9 @@
+material : "eut2.dif.decal.over.rfx" {
+	texture[0] : "/vehicle/truck/upgrade/50k_addons/50k_kelsa_logos.tobj"
+	texture_name[0] : "texture_base"
+	add_ambient : 0
+	diffuse : { 1 , 1 , 1 }
+	reflection : 0
+	shininess : 50
+	specular : { 0 , 0 , 0 }
+}

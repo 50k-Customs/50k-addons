@@ -1,0 +1,14 @@
+	# Simulating 24V 3W incandescent bulbs - data gathered from known worldwide manufacturer.
+	# Lamp luminosity is 17 lm, however we have to divide that as both sum up in game,
+	# since common lumionsity is small we use more of diffuse and less of specular.
+
+	type: spot
+	setup: lumen_hue_saturation
+	diffuse_color: (200, 48, 100)
+	specular_color: (200, 48, 100)
+	range: 3.0
+	forward_distance: false
+	inner_angle: 5
+	outer_angle: 140
+	fade_distance: 20
+	fade_span: 20
