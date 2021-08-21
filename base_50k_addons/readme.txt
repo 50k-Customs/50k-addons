@@ -25,7 +25,7 @@ Light types:
 
 ### CHANGELOG FOR LATEST VERSION
 
-- Re-converted for 1.35
+- Updated to 1.40 light changes & reconverted
 
 ### CREDITS
 
@@ -40,5 +40,5 @@ Light types:
 ### KNOWN ISSUES
 
 No known issues.
-It was tested on 1.35.Xs.
+It was tested on 1.41.Xs.
 .
