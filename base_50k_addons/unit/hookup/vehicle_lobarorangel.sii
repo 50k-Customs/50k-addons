@@ -4,15 +4,19 @@ flare_vehicle: flare.vehicle.lobarorangel
 {
 	dir_type: wide
 	light_type: parking
-	model: "/model/flare/50k_grill_flare.pmd" 
+	model: "/model/flare/50k_grill_flare.pmd"
 	scale_factor: 1.5
 	visual_offset: 0.075
 
-    diffuse_color: (0.2, 0.072, 0.04)
+	setup: candela_hue_saturation
+	diffuse_color: (20, 18, 100)
+	specular_color: (20, 18, 100)
 	range: 0.5
 	inner_angle: 0.5
 	outer_angle: 170.0
 	type: spot
 	forward_distance: false
+	fade_distance: 20
+	fade_span: 20
 }
 }

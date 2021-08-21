@@ -6,7 +6,7 @@
 #
 Header {
     FormatVersion: 1
-    Source: "Blender 2.79.0 (hash: 5bd8ac9abfa), SCS Blender Tools: 1.10.001193f"
+    Source: "Blender 2.93.1 (hash: 1b8d33b18c2f), SCS Blender Tools: 2.2.696fffa5"
     Type: "Trait"
     Name: "50k_hella_chromium_angel"
 }
@@ -37,7 +37,7 @@ Look {
         Attribute {
             Format: FLOAT
             Tag: "shininess"
-            Value: ( 60.0 )
+            Value: ( 100.0 )
         }
         Attribute {
             Format: FLOAT
@@ -52,7 +52,7 @@ Look {
         Attribute {
             Format: FLOAT2
             Tag: "fresnel"
-            Value: ( 0.20000000298023224 0.8999999761581421 )
+            Value: ( 1.0 1.0 )
         }
         Texture {
             Tag: "texture[0]:texture_base"
@@ -60,7 +60,7 @@ Look {
         }
         Texture {
             Tag: "texture[1]:texture_mask"
-            Value: "/vehicle/truck/upgrade/50k_addons/50k_hella"
+            Value: "/vehicle/truck/upgrade/50k_addons/50k_hella_mask"
         }
         Texture {
             Tag: "texture[2]:texture_reflection"
@@ -81,7 +81,7 @@ Look {
         Attribute {
             Format: FLOAT3
             Tag: "specular"
-            Value: ( 1.0832680463790894 1.0832680463790894 1.0832680463790894 )
+            Value: ( 1.0 1.0 1.0 )
         }
         Attribute {
             Format: FLOAT
@@ -94,11 +94,6 @@ Look {
             Value: ( 0.0 )
         }
         Attribute {
-            Format: FLOAT3
-            Tag: "env_factor"
-            Value: ( 1.6124509572982788 1.6124509572982788 1.6124509572982788 )
-        }
-        Attribute {
             Format: FLOAT2
             Tag: "fresnel"
             Value: ( 1.0 2.0 )
@@ -106,12 +101,17 @@ Look {
         Attribute {
             Format: FLOAT3
             Tag: "tint"
-            Value: ( 0.7760000228881836 0.800000011920929 0.7889639735221863 )
+            Value: ( 0.9215003252029419 0.9500004053115845 0.9368951320648193 )
         }
         Attribute {
             Format: FLOAT
             Tag: "tint_opacity"
-            Value: ( 0.009999999776482582 )
+            Value: ( -0.009999999776482582 )
+        }
+        Attribute {
+            Format: INT
+            Tag: "queue_bias"
+            Value: ( 0 )
         }
         Texture {
             Tag: "texture[0]:texture_base"
@@ -124,45 +124,9 @@ Look {
     }
     Material {
         Alias: "hella_over"
-        Effect: "eut2.dif.spec.a.add"
+        Effect: "eut2.dif.spec.add.env.over"
         Flags: 0
-        AttributeCount: 5
-        TextureCount: 1
-        Attribute {
-            Format: FLOAT3
-            Tag: "diffuse"
-            Value: ( 1.0 1.0 1.0 )
-        }
-        Attribute {
-            Format: FLOAT3
-            Tag: "specular"
-            Value: ( 0.49995601177215576 0.49995601177215576 0.49995601177215576 )
-        }
-        Attribute {
-            Format: FLOAT
-            Tag: "shininess"
-            Value: ( 14.0 )
-        }
-        Attribute {
-            Format: FLOAT
-            Tag: "add_ambient"
-            Value: ( 0.0 )
-        }
-        Attribute {
-            Format: FLOAT
-            Tag: "reflection"
-            Value: ( 0.0 )
-        }
-        Texture {
-            Tag: "texture[0]:texture_base"
-            Value: "/vehicle/truck/upgrade/50k_addons/50k_hella_glass"
-        }
-    }
-    Material {
-        Alias: "hella_chrome"
-        Effect: "eut2.dif.spec.add.env.nofresnel"
-        Flags: 0
-        AttributeCount: 6
+        AttributeCount: 7
         TextureCount: 2
         Attribute {
             Format: FLOAT3
@@ -177,7 +141,7 @@ Look {
         Attribute {
             Format: FLOAT
             Tag: "shininess"
-            Value: ( 250.0 )
+            Value: ( 100.0 )
         }
         Attribute {
             Format: FLOAT
@@ -192,7 +156,57 @@ Look {
         Attribute {
             Format: FLOAT3
             Tag: "env_factor"
-            Value: ( 1.288835048675537 1.288835048675537 1.288835048675537 )
+            Value: ( 0.5 0.5 0.5 )
+        }
+        Attribute {
+            Format: FLOAT2
+            Tag: "fresnel"
+            Value: ( 1.0 1.0 )
+        }
+        Texture {
+            Tag: "texture[0]:texture_base"
+            Value: "/vehicle/truck/upgrade/50k_addons/50k_hella_glass"
+        }
+        Texture {
+            Tag: "texture[1]:texture_reflection"
+            Value: "/material/environment/vehicle_reflection"
+        }
+    }
+    Material {
+        Alias: "hella_chrome"
+        Effect: "eut2.dif.spec.add.env.nofresnel"
+        Flags: 0
+        AttributeCount: 6
+        TextureCount: 2
+        Attribute {
+            Format: FLOAT3
+            Tag: "diffuse"
+            Value: ( 0.8999999761581421 0.8999999761581421 0.8999999761581421 )
+        }
+        Attribute {
+            Format: FLOAT3
+            Tag: "specular"
+            Value: ( 1.0 1.0 1.0 )
+        }
+        Attribute {
+            Format: FLOAT
+            Tag: "shininess"
+            Value: ( 100.0 )
+        }
+        Attribute {
+            Format: FLOAT
+            Tag: "add_ambient"
+            Value: ( 0.0 )
+        }
+        Attribute {
+            Format: FLOAT
+            Tag: "reflection"
+            Value: ( 0.0 )
+        }
+        Attribute {
+            Format: FLOAT3
+            Tag: "env_factor"
+            Value: ( 1.0 1.0 1.0 )
         }
         Texture {
             Tag: "texture[0]:texture_base"

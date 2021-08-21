@@ -262,7 +262,7 @@ accessory_hookup_data : 50k_michln_w.addon_hookup
 
 accessory_hookup_data : 50k_michln_y.addon_hookup
 {
-	name: "50k customs: MICHELIN yellow doll"
+	name: "50k customs: MICHELIN orange doll"
 	price: 90
 	icon: "50k_addons/50k_michelin_y_000"
 	model: "/vehicle/truck/upgrade/50k_addons/50k_michelin_yellow.pmd"

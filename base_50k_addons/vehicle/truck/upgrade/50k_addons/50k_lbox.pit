@@ -6,7 +6,7 @@
 #
 Header {
     FormatVersion: 1
-    Source: "Blender 2.79.0 (hash: 5bd8ac9abfa), SCS Blender Tools: 1.10.001193f"
+    Source: "Blender 2.93.1 (hash: 1b8d33b18c2f), SCS Blender Tools: 2.2.696fffa5"
     Type: "Trait"
     Name: "50k_lbox"
 }
@@ -31,8 +31,8 @@ Look {
         }
     }
     Material {
-        Alias: "lbox"
-        Effect: "eut2.dif.spec.add.env.paint"
+        Alias: "lbox_paint"
+        Effect: "eut2.dif.spec.weight.add.env.paint"
         Flags: 0
         AttributeCount: 7
         TextureCount: 2
@@ -64,7 +64,7 @@ Look {
         Attribute {
             Format: FLOAT3
             Tag: "env_factor"
-            Value: ( 0.4235830008983612 0.4235830008983612 0.4235830008983612 )
+            Value: ( 1.0 1.0 1.0 )
         }
         Attribute {
             Format: FLOAT2
@@ -81,11 +81,37 @@ Look {
         }
     }
     Material {
-        Alias: "lbox_lamp"
-        Effect: "eut2.lamp.add.env"
+        Alias: "lbox_additive"
+        Effect: "eut2.unlit.vcol.tex.decal.add"
         Flags: 0
-        AttributeCount: 6
-        TextureCount: 3
+        AttributeCount: 3
+        TextureCount: 1
+        Attribute {
+            Format: FLOAT3
+            Tag: "diffuse"
+            Value: ( 1.0 1.0 1.0 )
+        }
+        Attribute {
+            Format: FLOAT2
+            Tag: "aux[5]"
+            Value: ( 2000.0 10.0 )
+        }
+        Attribute {
+            Format: INT
+            Tag: "queue_bias"
+            Value: ( 0 )
+        }
+        Texture {
+            Tag: "texture[0]:texture_base"
+            Value: "/vehicle/truck/upgrade/50k_addons/lbox_sign"
+        }
+    }
+    Material {
+        Alias: "lbox_sign_new"
+        Effect: "eut2.dif.spec.add.env"
+        Flags: 0
+        AttributeCount: 7
+        TextureCount: 2
         Attribute {
             Format: FLOAT3
             Tag: "diffuse"
@@ -99,7 +125,7 @@ Look {
         Attribute {
             Format: FLOAT
             Tag: "shininess"
-            Value: ( 100.0 )
+            Value: ( 250.0 )
         }
         Attribute {
             Format: FLOAT
@@ -107,9 +133,14 @@ Look {
             Value: ( 0.0 )
         }
         Attribute {
+            Format: FLOAT
+            Tag: "reflection"
+            Value: ( 0.0 )
+        }
+        Attribute {
             Format: FLOAT3
             Tag: "env_factor"
-            Value: ( 0.3461528718471527 0.3461528718471527 0.3461528718471527 )
+            Value: ( 0.5 0.5 0.5 )
         }
         Attribute {
             Format: FLOAT2
@@ -118,31 +149,11 @@ Look {
         }
         Texture {
             Tag: "texture[0]:texture_base"
-            Value: "/vehicle/truck/upgrade/50k_addons/lbox"
-        }
-        Texture {
-            Tag: "texture[1]:texture_mask"
-            Value: "/vehicle/truck/upgrade/50k_addons/lbox_lightmask"
-        }
-        Texture {
-            Tag: "texture[2]:texture_reflection"
-            Value: "/material/environment/vehicle_reflection"
-        }
-    }
-    Material {
-        Alias: "lbox_sign_new"
-        Effect: "eut2.unlit.vcol.tex.mult"
-        Flags: 0
-        AttributeCount: 1
-        TextureCount: 1
-        Attribute {
-            Format: FLOAT3
-            Tag: "diffuse"
-            Value: ( 1.0 1.0 1.0 )
-        }
-        Texture {
-            Tag: "texture[0]:texture_base"
             Value: "/vehicle/truck/upgrade/50k_addons/lbox_sign"
+        }
+        Texture {
+            Tag: "texture[1]:texture_reflection"
+            Value: "/material/environment/vehicle_reflection"
         }
     }
 }

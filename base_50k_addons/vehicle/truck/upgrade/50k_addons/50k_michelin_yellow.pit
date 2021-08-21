@@ -6,7 +6,7 @@
 #
 Header {
     FormatVersion: 1
-    Source: "Blender 2.79.0 (hash: 5bd8ac9abfa), SCS Blender Tools: 1.10.001193f"
+    Source: "Blender 2.93.1 (hash: 1b8d33b18c2f), SCS Blender Tools: 2.2.696fffa5"
     Type: "Trait"
     Name: "50k_michelin_yellow"
 }
@@ -18,6 +18,18 @@ Global {
 }
 Look {
     Name: "default"
+    Material {
+        Alias: "shadowonly"
+        Effect: "eut2.shadowonly"
+        Flags: 0
+        AttributeCount: 1
+        TextureCount: 0
+        Attribute {
+            Format: FLOAT
+            Tag: "shadow_bias"
+            Value: ( 0.0 )
+        }
+    }
     Material {
         Alias: "50k_michelin"
         Effect: "eut2.lamp"
@@ -51,18 +63,6 @@ Look {
         Texture {
             Tag: "texture[1]:texture_mask"
             Value: "/vehicle/truck/upgrade/50k_addons/michelin_lightmask"
-        }
-    }
-    Material {
-        Alias: "shadowonly"
-        Effect: "eut2.shadowonly"
-        Flags: 0
-        AttributeCount: 1
-        TextureCount: 0
-        Attribute {
-            Format: FLOAT
-            Tag: "shadow_bias"
-            Value: ( 0.0 )
         }
     }
 }

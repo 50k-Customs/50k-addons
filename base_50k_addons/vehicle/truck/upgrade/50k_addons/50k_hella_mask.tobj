@@ -1,0 +1,5 @@
+map 2d
+     50k_hella_mask.tga
+addr
+     clamp_to_edge
+     clamp_to_edge

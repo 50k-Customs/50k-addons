@@ -1,6 +1,6 @@
 Header {
     FormatVersion: 5
-    Source: "Blender 2.79.0 (hash: 5bd8ac9abfa), SCS Blender Tools: 1.11.2032583"
+    Source: "Blender 2.93.1 (hash: 1b8d33b18c2f), SCS Blender Tools: 2.2.696fffa5"
     Type: "Model"
     Name: "50k_scania_2016_sh_slots"
 }
@@ -13,6 +13,7 @@ Global {
     BoneCount: 0
     LocatorCount: 20
     Skeleton: "50k_scania_2016_sh_slots.pis"
+    PieceSkinCount: 0
 }
 Part {
     Name: "defaultpart"
@@ -25,7 +26,7 @@ Locator {
     Name: "slot_0"
     Index: 0
     Position: ( &bf54e301  &3e1cf79d  &3f29e8c8 )
-    Rotation: ( &3f7f46bf  &bd99e13f  &9fc54811  &21b05474 )
+    Rotation: ( &3f7f46bf  &bd99e13f  &9fc54812  &21b05474 )
     Scale: ( &3f800000  &3f800000  &3f7fffff )
 }
 Locator {
@@ -39,14 +40,14 @@ Locator {
     Name: "slot_10"
     Index: 2
     Position: ( &beaad39e  &c001e04a  &be6e56aa )
-    Rotation: ( &3f7ffba7  &b2eb0f46  &3c3cbe16  &30cda1e6 )
+    Rotation: ( &3f7ffba7  &b2eb0f48  &3c3cbe16  &30cda1e7 )
     Scale: ( &3f800000  &3f800000  &3f7fffff )
 }
 Locator {
     Name: "slot_11"
     Index: 3
     Position: ( &3eaad39d  &c001e04a  &be6e569a )
-    Rotation: ( &3f7ffba7  &b2eb4e53  &bc3cbe3d  &30886d46 )
+    Rotation: ( &3f7ffba7  &b2eb4e55  &bc3cbe3d  &30886d48 )
     Scale: ( &3f800000  &3f800000  &3f7fffff )
 }
 Locator {
@@ -67,14 +68,14 @@ Locator {
     Name: "slot_14"
     Index: 6
     Position: ( &bf9ff7dc  &bfc25290  &3e60e1c8 )
-    Rotation: ( &3e862ae8  &b45d5748  &b39c7711  &3f770ddf )
+    Rotation: ( &3e862ae4  &b3dd574d  &b340b9f0  &3f770de0 )
     Scale: ( &3f800000  &3f800000  &3f7ffffe )
 }
 Locator {
     Name: "slot_15"
     Index: 7
     Position: ( &3f9ff7cf  &bfc25290  &3e60e1c8 )
-    Rotation: ( &3e862ae8  &b45d5748  &339c7711  &bf770ddf )
+    Rotation: ( &3e862ae4  &b3dd574d  &3340b9f0  &bf770de0 )
     Scale: ( &3f800000  &3f800000  &3f7ffffe )
 }
 Locator {
@@ -116,49 +117,49 @@ Locator {
     Name: "slot_3"
     Index: 13
     Position: ( &3f54e304  &3e1cf79d  &3f29e8c8 )
-    Rotation: ( &3f7f46bf  &bd99e13f  &9fc54811  &21b05474 )
+    Rotation: ( &3f7f46bf  &bd99e13f  &9fc54812  &21b05474 )
     Scale: ( &3f800000  &3f800000  &3f7fffff )
 }
 Locator {
     Name: "slot_4"
     Index: 14
     Position: ( &bef76e8c  &c001e04a  &be6bcdfa )
-    Rotation: ( &3f7ffba7  &b2eb0f46  &3c3cbe16  &30cda1e6 )
+    Rotation: ( &3f7ffba7  &b2eb0f48  &3c3cbe16  &30cda1e7 )
     Scale: ( &3f800000  &3f800000  &3f7fffff )
 }
 Locator {
     Name: "slot_5"
     Index: 15
     Position: ( &3ef76e83  &c001e04a  &be6bcdfa )
-    Rotation: ( &3f7ffba7  &b2eb4e53  &bc3cbe3d  &30886d46 )
+    Rotation: ( &3f7ffba7  &b2eb4e55  &bc3cbe3d  &30886d48 )
     Scale: ( &3f800000  &3f800000  &3f7fffff )
 }
 Locator {
     Name: "slot_6"
     Index: 16
     Position: ( &3eedb318  &c011fffe  &be6fdacc )
-    Rotation: ( &3f7ffba7  &b2eb4e53  &bc3cbe3d  &30886d46 )
+    Rotation: ( &3f7ffba7  &b2eb4e55  &bc3cbe3d  &30886d48 )
     Scale: ( &3f800000  &3f800000  &3f7fffff )
 }
 Locator {
     Name: "slot_7"
     Index: 17
     Position: ( &bee324c7  &c0208140  &be6fdacd )
-    Rotation: ( &3f7ffba7  &b2eb0f46  &3c3cbe16  &30cda1e6 )
+    Rotation: ( &3f7ffba7  &b2eb0f48  &3c3cbe16  &30cda1e7 )
     Scale: ( &3f800000  &3f800000  &3f7fffff )
 }
 Locator {
     Name: "slot_8"
     Index: 18
     Position: ( &3ee324c8  &c0208140  &be6fdacd )
-    Rotation: ( &3f7ffba7  &b2eb4e53  &bc3cbe3d  &30886d46 )
+    Rotation: ( &3f7ffba7  &b2eb4e55  &bc3cbe3d  &30886d48 )
     Scale: ( &3f800000  &3f800000  &3f7fffff )
 }
 Locator {
     Name: "slot_9"
     Index: 19
     Position: ( &beedb312  &c011fffe  &be6fdacc )
-    Rotation: ( &3f7ffba7  &b2eb0f46  &3c3cbe16  &30cda1e6 )
+    Rotation: ( &3f7ffba7  &b2eb0f48  &3c3cbe16  &30cda1e7 )
     Scale: ( &3f800000  &3f800000  &3f7fffff )
 }
 

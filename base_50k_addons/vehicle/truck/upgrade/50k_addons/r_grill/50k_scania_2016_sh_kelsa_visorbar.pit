@@ -7,7 +7,7 @@
 #
 Header {
     FormatVersion: 1
-    Source: "Blender 2.79.0 (hash: 5bd8ac9abfa), SCS Blender Tools: 1.11.2032583"
+    Source: "Blender 2.93.1 (hash: 1b8d33b18c2f), SCS Blender Tools: 2.2.696fffa5"
     Type: "Trait"
     Name: "50k_scania_2016_sh_kelsa_visorbar"
 }
@@ -80,7 +80,7 @@ Look {
         Alias: "paint_upgrade"
         Effect: "eut2.truckpaint"
         Flags: 0
-        AttributeCount: 6
+        AttributeCount: 5
         TextureCount: 2
         Attribute {
             Format: FLOAT3
@@ -90,7 +90,7 @@ Look {
         Attribute {
             Format: FLOAT3
             Tag: "specular"
-            Value: ( 1.5 1.5 1.5 )
+            Value: ( 1.0 1.0 1.0 )
         }
         Attribute {
             Format: FLOAT
@@ -101,11 +101,6 @@ Look {
             Format: FLOAT
             Tag: "add_ambient"
             Value: ( 0.0 )
-        }
-        Attribute {
-            Format: FLOAT3
-            Tag: "env_factor"
-            Value: ( 0.30000001192092896 0.30000001192092896 0.30000001192092896 )
         }
         Attribute {
             Format: FLOAT2
@@ -125,7 +120,7 @@ Look {
         Alias: "50k_hella_logos"
         Effect: "eut2.dif.decal.over"
         Flags: 0
-        AttributeCount: 5
+        AttributeCount: 6
         TextureCount: 1
         Attribute {
             Format: FLOAT3
@@ -151,6 +146,11 @@ Look {
             Format: FLOAT
             Tag: "reflection"
             Value: ( 0.0 )
+        }
+        Attribute {
+            Format: INT
+            Tag: "queue_bias"
+            Value: ( 0 )
         }
         Texture {
             Tag: "texture[0]:texture_base"

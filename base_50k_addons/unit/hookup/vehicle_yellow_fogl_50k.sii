@@ -4,11 +4,15 @@ flare_vehicle: flare.vehicle.yellow.fogl_50k
 {
 	light_type: parking
 
-    diffuse_color: (0.2, 0.15, 0.0)
+	setup: candela_hue_saturation
+	diffuse_color: (10, 52, 100)
+	specular_color: (10, 52, 100)
 	range: 1
-	inner_angle: 0.1
+	inner_angle: 1
 	outer_angle: 130.0
 	type: spot
 	forward_distance: false
+	fade_distance: 20
+	fade_span: 20
 }
 }

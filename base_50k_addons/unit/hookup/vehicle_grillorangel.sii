@@ -8,11 +8,15 @@ flare_vehicle: flare.vehicle.grillorangel
 	scale_factor: 1.5
 	visual_offset: 0.075
 
-    diffuse_color: (1, 0.145, 0)
+	setup: candela_hue_saturation
+	diffuse_color: (16, 25, 100)
+	specular_color: (16, 25, 100)
 	range: 0.2
 	inner_angle: 1.5
 	outer_angle: 160.0
 	type: spot
 	forward_distance: false
+	fade_distance: 20
+	fade_span: 20
 }
 }
