@@ -3,4 +3,6 @@
 /backup/*
 /base/*
 /base
+/base_vehicle/*
+/base_vehicle
 /refs/*
